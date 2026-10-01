@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Buildream</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;color:#222}
+a{text-decoration:none;color:inherit}
+.top{background:#222;color:#fff;padding:8px 7%;font-size:13px;display:flex;justify-content:space-between}
+nav{padding:18px 7%;display:flex;justify-content:space-between;align-items:center;background:#fff}
+.logo{font-size:25px;font-weight:bold;color:#e5a400}
+nav a{margin-left:20px;font-size:14px}
+.hero{height:500px;background:linear-gradient(#0008,#0008),url("https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1400&q=80") center/cover;display:flex;align-items:center;padding:7%;color:#fff}
+.hero h1{font-size:52px;max-width:650px;margin:15px 0}
+.hero p{font-size:18px;max-width:550px;line-height:1.6}
+.btn{display:inline-block;background:#e5a400;color:#fff;padding:14px 25px;margin-top:25px;border-radius:3px}
+section{padding:70px 7%}
+.title{text-align:center;margin-bottom:35px}
+.title h2{font-size:34px;margin-bottom:10px}
+.title p{color:#777}
+.about{display:flex;gap:40px;align-items:center}
+.about img{width:48%;height:300px;object-fit:cover}
+.about div{flex:1}
+.about p{line-height:1.7;color:#666;margin-top:15px}
+.cards{display:flex;gap:20px;flex-wrap:wrap;justify-content:center}
+.card{flex:1;min-width:220px;padding:30px;background:#f5f5f5;text-align:center}
+.card h3{margin:15px 0}
+.card p{color:#777;line-height:1.5}
+.stats{background:#e5a400;color:#fff;display:flex;justify-content:space-around;text-align:center}
+.stats h2{font-size:35px}
+.projects{display:flex;gap:20px;flex-wrap:wrap}
+.project{flex:1;min-width:250px}
+.project img{width:100%;height:220px;object-fit:cover}
+.project h3{padding:12px 0}
+.cta{text-align:center;background:#222;color:#fff}
+.cta h2{font-size:35px}
+footer{background:#111;color:#aaa;text-align:center;padding:25px}
+@media(max-width:700px){
+.top{font-size:11px;padding:8px 4%}
+nav{padding:15px 4%;display:block;text-align:center}
+nav a{display:inline-block;margin:10px 6px}
+.hero{height:450px;padding:8% 5%}
+.hero h1{font-size:38px}
+section{padding:50px 5%}
+.about{display:block}
+.about img{width:100%;margin-bottom:25px}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:25px}
+}
+</style>
+</head>
+<body>
+
+<div class="top"><span>Welcome to Buildream</span><span>Call: +92 300 1234567</span></div>
+
+<nav>
+<div class="logo">BUILDREAM</div>
+<div><a href="#">Home</a><a href="#">About</a><a href="#">Services</a><a href="#">Projects</a><a href="#">Contact</a></div>
+</nav>
+
+<section class="hero">
+<div class="animate__animated animate__fadeInUp">
+<small>BUILDING YOUR DREAM</small>
+<h1>We Build Your Dream Home</h1>
+<p>Professional construction services with quality, experience and modern ideas.</p>
+<a class="btn animate__animated animate__pulse animate__infinite" href="#">Get A Quote</a>
+</div>
+</section>
+
+<section>
+<div class="title animate__animated animate__fadeInUp"><h2>About Buildream</h2><p>We create strong and beautiful spaces.</p></div>
+<div class="about">
+<img class="animate__animated animate__fadeInLeft" src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=900&q=80">
+<div class="animate__animated animate__fadeInRight">
+<h2>We Are The Best Construction Company</h2>
+<p>Our team provides reliable construction and renovation services. We focus on quality work, modern design and customer satisfaction.</p>
+<a class="btn animate__animated animate__pulse animate__infinite" href="#">Read More</a>
+</div>
+</div>
+</section>
+
+<section>
+<div class="title"><h2>Our Services</h2><p>Professional services for every project.</p></div>
+<div class="cards">
+<div class="card animate__animated animate__fadeInUp"><h3>🏠 Construction</h3><p>Complete building construction with quality materials.</p></div>
+<div class="card animate__animated animate__fadeInUp"><h3>🔨 Renovation</h3><p>Modern renovation solutions for homes and offices.</p></div>
+<div class="card animate__animated animate__fadeInUp"><h3>📐 Architecture</h3><p>Creative plans and designs for your dream project.</p></div>
+</div>
+</section>
+
+<section class="stats">
+<div class="animate__animated animate__zoomIn"><h2>25+</h2><p>Years Experience</p></div>
+<div class="animate__animated animate__zoomIn"><h2>350+</h2><p>Projects Done</p></div>
+<div class="animate__animated animate__zoomIn"><h2>120+</h2><p>Happy Clients</p></div>
+</section>
+
+<section>
+<div class="title"><h2>Our Projects</h2><p>Some of our recent work.</p></div>
+<div class="projects">
+<div class="project animate__animated animate__fadeInUp"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=700&q=80"><h3>Modern House</h3></div>
+<div class="project animate__animated animate__fadeInUp"><img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=700&q=80"><h3>Luxury Interior</h3></div>
+<div class="project animate__animated animate__fadeInUp"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=700&q=80"><h3>Dream Villa</h3></div>
+</div>
+</section>
+
+<section class="cta animate__animated animate__fadeInUp">
+<h2>Let's Build Something Great</h2>
+<p>Contact us today for your next project.</p>
+<a class="btn animate__animated animate__pulse animate__infinite" href="#">Contact Us</a>
+</section>
+
+<footer>© 2026 Buildream. All Rights Reserved.</footer>
+</body>
+</html>
